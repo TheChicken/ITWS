@@ -1,0 +1,141 @@
+/*Elements of the playlist html are broken into sections. Each section has its own css block
+and style which is reflected in the columns. The header eliement is specifically for the title
+bar at the top  which are nameless sections. The .trac div contains all of the track elements 
+and they are listed in-line and break to the next line at the br tags.*/
+
+body{
+  width: 95%;
+  height: 100%;
+  padding: 10px;
+  border: solid;
+  }
+
+.title{
+  margin-left: 10px;
+}
+
+.titlebar{
+  float: left;
+  display: inline-block;
+  font: sans-serif;
+  font-style: italic;
+  font-size: 19px;
+  font-weight: bold;
+  width: 100%;
+  padding-left: 0px;
+  }
+.titlebar section{
+  display: inline-block;
+  width: 13%;
+  text-align: center;
+  padding-left: 10px;
+}
+
+p{
+  height: 120px;
+  }
+ul{
+  list-style-type: disc;
+}
+
+li{
+  margin: 0 0 100px 0;
+
+}
+.playlist{
+  padding: 5px;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  float: left;
+  width: 100%;
+  padding-left: 10px;
+  }
+
+.song{
+  font-variant: small-caps;
+  float: left;
+  color: #32CD32;
+  width: 14%;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 30px;
+  padding-bottom: 10px;
+  }
+
+.artist{
+  float: left;
+  font-weight: bold;
+  width: 14%;
+  margin-top: 35px;
+  text-align: center;
+  }
+
+.album{
+  float: left;
+  font-style: italic;
+  width: 14%;
+  margin-top: 35px;
+  text-align: center;
+  }
+
+/*float right allowed a change in column*/
+.album_cover{
+  float: left;
+  width: 14%;
+  margin: auto;
+  text-align: center;
+  float: right;
+  }
+
+.release{
+  font-size: 14px;
+  float: left;
+  width: 14%;
+  margin-top: 42px;
+  text-align: center;
+  }
+
+.genre{
+  list-style-type: disc;
+  text-align: left;
+  font-size: 14px;
+  float: left;
+  margin-top: 35px;
+  width: 14%;
+  text-align: center;
+  
+  }
+.website{
+  font-size: 12px;
+  float: left;
+  width: 14%;
+  margin-top: 35px;
+  text-align: center;
+  }
+
+
+footer{
+  font-size: 10px;
+  font-style: italic;
+  color: black;
+  text-align: center;
+}
+/*color control for the artist website link*/
+a:link{
+  color: #0000FF);
+  }
+a:visited{
+  color: #0000FF;
+  }
+a:hover{
+  color: #FF00FF;
+  }
+br.clear{
+   clear: both;
+  }
+img{
+    vertical-align: text-top;
+    height: 100px;
+    width: 100px;
+     }
